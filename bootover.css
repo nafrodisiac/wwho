@@ -1,24 +1,26 @@
-/* Show it is fixed to the top */
 body {
-  min-height: 75rem;
-  padding-top: 7.5rem;
+	min-height: 75rem;
+	padding-top: 7.5rem;
+}
+
+.row {
+	padding-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
 
 .carousel-inner img {
   margin: auto;
 }
 
-.row{
-    overflow: hidden;
+.jumbotron-fluid {
+	background-color: #adc8ff;
+	height: 84vh;
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+.cardtitle {
+	color: #eeeeff;
+	font-family: Arial;
 }
-/** Testing changes
-making even more changes
-and these are not identical
-**/
