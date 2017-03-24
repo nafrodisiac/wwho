@@ -2,9 +2,16 @@ body {
 	min-height: 75rem;
 	padding-top: 7.5rem;
 }
-
-.row {
+h4 {
+	color: #224384;
+}
+.row.pg-div {
 	padding-top: 10px;
+}
+
+.row.headholder{
+	justify-content: center;
+	padding-top: 0px !important;
 }
 
 .navbar {
@@ -21,7 +28,7 @@ body {
 }
 
 .cardtitle {
-	color: #eeeeff;
+	color: #224384;
 	font-family: Arial;
 }
 .carousel, .carousel-inner > .item {
@@ -40,4 +47,5 @@ body {
 
 .img-fluid {
 	max-height: 60vh; !important;
+
 }
