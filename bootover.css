@@ -31,3 +31,6 @@ h4 {
 	color: #224384;
 	font-family: Arial;
 }
+.jumbotron {
+	padding:0em !important;
+}
