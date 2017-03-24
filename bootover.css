@@ -24,3 +24,20 @@ body {
 	color: #eeeeff;
 	font-family: Arial;
 }
+.carousel, .carousel-inner > .item {
+  display: run-in;
+  width: 100%;
+  height: auto!important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+}
+
+.carousel-container {
+    max-height: 100%;
+}
