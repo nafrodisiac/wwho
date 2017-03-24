@@ -2,7 +2,9 @@ body {
 	min-height: 75rem;
 	padding-top: 7.5rem;
 }
-
+h4 {
+	color: #224384;
+}
 .row.pg-div {
 	padding-top: 10px;
 }
@@ -26,6 +28,6 @@ body {
 }
 
 .cardtitle {
-	color: #15274b;
+	color: #224384;
 	font-family: Arial;
 }
