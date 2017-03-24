@@ -31,6 +31,21 @@ h4 {
 	color: #224384;
 	font-family: Arial;
 }
-.jumbotron {
-	padding:0em !important;
+.carousel, .carousel-inner > .item {
+  display: run-in;
+  width: 100%;
+  height: auto !important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+}
+
+.img-fluid {
+	max-height: 60vh; !important;
+
 }
